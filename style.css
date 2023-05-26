@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00427e;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#seleccion-calculadora {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#seleccion-calculadora h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#seleccion-calculadora button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #00427e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#limpiarCalculadora{
+  background-color:#00427e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#seleccion-calculadora button:hover {
+  background-color: #00427e;
+}
+
+#seleccion-calculadora button:focus {
+  outline: none;
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+select,
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color:#00427e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#resultado {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#resultado p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+#resultado p#magnitud {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#resultado p#formula-magnitud {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888;
+}
+
+#resultado p#angulo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#resultado p#cuadrante-2d {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#resultado p#cosenos {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#resultado p#vector-unitario {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#resultado p#direccion {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#resultado p[id^="formula-"] {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888;
+}
+#resultado-opuestos {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: none;
+}
+#calculadora-matrices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#calculadora-matrices h1 {
+  margin-bottom: 20px;
+}
+
+#dimensiones {
+  margin-bottom: 10px;
+}
+
+#dimensiones label {
+  margin-right: 5px;
+}
+
+#dimensiones select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+
+#btn-calcular-two {
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: #00427e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#matriz-original,
+#matriz-inversa {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  
+}
+
+.matriz-row {
+  display: flex;
+}
+
+.matriz-cell {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
